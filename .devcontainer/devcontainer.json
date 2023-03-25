@@ -17,7 +17,13 @@
 	"remoteUser": "vscode",
 	"features": {
 		"docker-in-docker": "latest",
-		"ghcr.io/devcontainers/features/github-cli:1": {}
+		"ghcr.io/devcontainers/features/github-cli:1": {
+			"installDirectlyFromGitHubRelease": true,
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/mysql-homebrew:1": {
+			"version": "latest"
+		}
 	},
 	"extensions": [
 		"vscjava.vscode-java-pack",
